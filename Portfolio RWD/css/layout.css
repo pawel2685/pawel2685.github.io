@@ -1,0 +1,268 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* -----ogólne-----*/
+.anim{
+	-webkit-transition: all 1200ms ease;
+	-moz-transition: all 1200ms ease;
+	-ms-transition: all 1200ms ease;
+	-o-transition: all 1200ms ease;
+	transition: all 1200ms ease;
+}
+.color {
+  font-weight: bold;
+  color: #e8491d;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+h2 {
+  text-shadow: 2px 2px 2px #222;
+  color: #e8491d;
+  text-align: center;
+  font-size: 36px;
+}
+.box h3 {
+  margin-top: 20px;
+}
+/*----header-----*/
+#hiddenMenu {
+  display: none;
+  z-index: 1000;
+  cursor: pointer;
+}
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header ul {
+  margin: 30px;
+  padding: 0;
+  float: right;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #navigacja {
+  float: left;
+}
+
+header #navigacja h1 {
+  margin: 0 0 20px 0;
+}
+.li_active{
+	color: #e8491d;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .3s;
+  z-index: 1;
+}
+.black {
+  background: rgba(0,0,0,0.8);
+  height: 100px;
+  padding: 10px 100px;
+}
+header li:hover {
+  font-weight: bold;
+  color: #e8491d;
+  cursor: pointer;
+}
+
+/* -----mainWindow----- */
+.mainWindow {
+  min-height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/o5.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+.mainWindow h1 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 55px;
+  text-shadow: 2px 2px 2px #222;
+}
+/*-----O mnie-----*/
+.ud {
+  width: 125px;
+  height: 125px;
+}
+.text{
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+
+}
+  .portfolioSlider {
+    height: 400px;
+  }
+  .portfolioSlider .carousel-indicators {
+    bottom: 0px;
+    margin: 0px;
+    padding: 20px 0px;
+  }
+  .portfolioSlider .carousel-item img {
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    margin: 0px auto;
+  }
+/* -----Boxes-----*/
+.skills .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  margin: 25px 18px;
+}
+#way1{
+  display: none;
+}
+#way2{
+  display: none;
+}
+#way3{
+  display: none;
+}
+.fa-html5 {
+  color: #e34f25;
+}
+.fa-css3-alt {
+  color: #2162af;
+}
+.fa-bold {
+  color: #6632b2;
+}
+.fa-js {
+  color: #dab92d;
+}
+.fa-code {
+  color: #21ace2;
+}
+.fa-file-code {
+  color: #faa523;
+}
+.fa-exchange-alt {
+  color: #105b89;
+}
+.fa-paint-brush {
+  color: #6e6651;
+}
+/*-----Certyfikaty-----*/
+.gallery {
+  margin: 50px 35px;
+}
+.gallery a {
+  margin: 20px 0 0 100px;
+  float: left;
+}
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gallery .gf:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+/*-----Projekty-----*/
+.pr img {
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+}
+.pr {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000000;
+  display: inline-block;
+  margin: 100px 35px;
+}
+/*-----Start kontakt-----*/
+.kontakt {
+  padding: 30px 0px;
+}
+.kontaktIkona {
+  text-align: center;
+  display: block;
+}
+.kontaktIkona i {
+  font-size: 62px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.kontaktIkona:hover i {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.kontaktIkonaLine1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.kontaktIkonaLine2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #888 !important;
+}
+.kontakt_box_all1 {
+  padding: 30px 0px;
+}
+.kontakt_box_all1 input, .kontakt_box_all1 textarea {
+  width: 100%;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  outline: none !important;
+  margin-top: 30px;
+  background-color: #f4f4f4;
+}
+.error {
+  text-align: center;
+  color: #f00;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  display: none;
+}
+.contact_btn {
+  margin: 30px auto;
+  width: 300px;
+  padding: 10px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.kontakt_box_all2 {
+  text-align: center;
+  padding: 200px 0px;
+  color: #666;
+  display: none;
+}
+/*-----End kontakt-----*/
+/*-----Stopka-----*/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
