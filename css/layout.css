@@ -175,6 +175,7 @@ header li:hover {
 .gallery a {
   margin: 0 auto;
   float: left;
+  text-align: center;
 }
 .gallery img {
   width: 230px;
