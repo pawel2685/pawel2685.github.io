@@ -170,10 +170,10 @@ header li:hover {
 }
 /*-----Certyfikaty-----*/
 .gallery {
-  margin: 50px 35px;
+  margin: 50px 0;
 }
 .gallery a {
-  margin: 0 auto;
+  margin: 0 40px;
   float: left;
   text-align: center;
 }

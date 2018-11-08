@@ -20,4 +20,7 @@
   h3 {
     font-size: 16px;
   }
+  .gallery a{
+    margin: 10px auto 10px -10px;
+  }
 }
