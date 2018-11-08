@@ -173,7 +173,7 @@ header li:hover {
   margin: 50px 35px;
 }
 .gallery a {
-  margin: 20px 0 0 100px;
+  margin: 0 auto;
   float: left;
 }
 .gallery img {
