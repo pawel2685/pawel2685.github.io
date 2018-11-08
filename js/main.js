@@ -103,3 +103,8 @@ $(window).scroll(function() {
         $('#way3').fadeIn();
     }
 });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1400) {
+        $('#way4').fadeIn();
+    }
+});

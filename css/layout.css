@@ -144,6 +144,9 @@ header li:hover {
 #way3{
   display: none;
 }
+#way4{
+  display: none;
+}
 .fa-html5 {
   color: #e34f25;
 }
@@ -175,7 +178,6 @@ header li:hover {
 .gallery a {
   margin: 0 40px;
   float: left;
-  text-align: center;
 }
 .gallery img {
   width: 230px;
